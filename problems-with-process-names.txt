@@ -1,0 +1,12 @@
+iterator problems
+repeats empty array, 
+then the same entries a seemingly random number of times (8,11,14,16,11)
+recognizes charCode for space[confirmed], but doesn't recognize charCode for newline
+therefore all entries go into firstNameBuff
+
+is_firstname = never returns false
+
+i used the wrong symbol sequence to reassign the value of is_firstname 
+which functions as a switch between firstNamesArray and lastNamesArray,
+sending the data stream of f[index] to one array or the other. 
+i had written is_firstname===false instead of is_firstname = false

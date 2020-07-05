@@ -1,0 +1,27 @@
+# first-tier priority 
+## (potential breakage and edge cases)
+
+- add lastname firstname order
+- if white space trim whitespace
+- related edge case whitespace on first entry (current structure cannot account for is_space === true && is_firstname === true at fullFileArray[0]
+
+
+# second-tier priority 
+## (functionality: integration with db, network, and data-processing stack)
+
+- coerce to JSON objects
+- SQL wrappers
+- scrapers
+- run on cloud
+
+# third-tier priority
+## things that would be nice to have, but aren't a priority
+
+- refactor: consider the utility of generalizing data manipulation logic (space becomes isTriggerSymbol which can account for commas and capitalization etc; newline becomes nextEntry; isFirstName becomes isFirstAtr)
+
+- use gaming engine and VR to create a fluid 
+interface for presentation and manipulation of data
+create a media-rich subjective experience for
+market research. where the operator-agent (marketing
+research specialist) is the primary store of learning
+knowledge and conclusions-generation. 
